@@ -45,6 +45,7 @@
         [mainScrollView addSubview:contentScrollView];
     }
     
+    self.view.backgroundColor = [UIColor blackColor];
     [self.view addSubview:mainScrollView];
 }
 
